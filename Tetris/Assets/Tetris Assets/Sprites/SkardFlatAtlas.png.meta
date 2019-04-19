@@ -50,7 +50,7 @@ TextureImporter:
     21300086: SkardFlatAtlas_20
     21300088: SkardFlatAtlas_21
     21300090: SkardFlatAtlas_22
-    21300092: SkardFlatAtlas_23
+    21300092: Block
     21300094: SkardFlatAtlas_24
     21300096: SkardFlatAtlas_25
     21300098: SkardFlatAtlas_26
@@ -141,7 +141,7 @@ TextureImporter:
         height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 57, y: 54, z: 53, w: 63}
+      border: {x: 37, y: 34, z: 36, w: 39}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -356,7 +356,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SkardFlatAtlas_23
+      name: Block
       rect:
         serializedVersion: 2
         x: 596

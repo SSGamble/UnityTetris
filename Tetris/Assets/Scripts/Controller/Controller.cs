@@ -15,6 +15,8 @@ public class Controller : MonoBehaviour {
     public View view;
     [HideInInspector]
     public CameraManager cameraManager;
+    [HideInInspector]
+    public GameManager gameManager;
 
     private FSMSystem fsm; // 状态
 
@@ -23,8 +25,9 @@ public class Controller : MonoBehaviour {
         // 通过标签查找，获取相应的组件
         model = GameObject.FindGameObjectWithTag("Model").GetComponent<Model>();
         view = GameObject.FindGameObjectWithTag("View").GetComponent<View>();
-        cameraManager = GameObject.FindGameObjectWithTag("Controller").GetComponent<CameraManager>();
-
+        // 获取 Controller 上挂载的脚本引用
+        cameraManager = GetComponent<CameraManager>();
+        gameManager = GetComponent<GameManager>();
     }
 
     private void Start()

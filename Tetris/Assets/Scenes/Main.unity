@@ -7163,7 +7163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4FC4\u7F57\u65AF\u65B9\u5757"
+  m_Text: abcde
 --- !u!222 &978245012
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8225,6 +8225,7 @@ GameObject:
   - component: {fileID: 1090289142}
   - component: {fileID: 1090289143}
   - component: {fileID: 1090289144}
+  - component: {fileID: 1090289145}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Controller
@@ -8260,6 +8261,7 @@ MonoBehaviour:
   model: {fileID: 0}
   view: {fileID: 0}
   cameraManager: {fileID: 0}
+  gameManager: {fileID: 0}
 --- !u!114 &1090289144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8271,6 +8273,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a43445638f102fb4692ab75d21c44d7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1090289145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1090289141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679ed1d0d4331cb4782cfae5d5498e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapes:
+  - {fileID: 114051912834653558, guid: 92e627ea8f3d562418935279c9ff6f3b, type: 2}
+  - {fileID: 114470139165780724, guid: cc202ec3fa68698449f3cd9fdb94db8b, type: 2}
+  - {fileID: 114664437271758286, guid: 8ddd775c16be4d94b9c8b059be97f876, type: 2}
+  - {fileID: 114408220606490264, guid: f951a4a9dfd2c7a4d9906b5d04ed7f49, type: 2}
+  - {fileID: 114753520920438110, guid: 8d66a4871a8b7ab4bbeec4a81948bbd8, type: 2}
+  - {fileID: 114700608417302598, guid: b328a67fb6556294dbb6bfd0c5f215f8, type: 2}
+  - {fileID: 114925940935155394, guid: bef57022aceda7b44b988bce75ec038c, type: 2}
+  colors:
+  - {r: 1, g: 0.051849037, b: 0.051849037, a: 1}
+  - {r: 0.09877813, g: 0.46323532, b: 0.31242546, a: 1}
+  - {r: 0.19404197, g: 0.36949354, b: 0.71323526, a: 1}
+  - {r: 0.785937, g: 0.8897059, b: 0.13738108, a: 1}
+  - {r: 0.4882353, g: 0.07525954, b: 0.85294116, a: 1}
+  - {r: 0.78325385, g: 0.5322232, b: 0.78676474, a: 1}
+  - {r: 0.21723615, g: 0.6997598, b: 0.7205882, a: 1}
 --- !u!1001 &1092892506
 Prefab:
   m_ObjectHideFlags: 0

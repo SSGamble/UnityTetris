@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening; // DoTween
 
+/// <summary>
+/// 摄像机管理
+/// </summary>
 public class CameraManager : MonoBehaviour {
 
     private Camera mainCamera;

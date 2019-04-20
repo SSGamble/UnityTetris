@@ -20,6 +20,7 @@ public class PlayState : FSMState
     {
         controller.view.ShowGameUI(); // 显示游戏界面
         controller.cameraManager.ZoomIn(); // 放大视野
+        controller.gameManager.StartGame(); // 开始游戏
     }
 
     /// <summary>
@@ -29,6 +30,7 @@ public class PlayState : FSMState
     {
         controller.view.HideGameUI(); // 隐藏游戏界面
         controller.view.ShowRestartButton(); // 显示重新开始按钮
+        controller.gameManager.PauseGame(); // 暂停游戏
     }
 
     /// <summary>
